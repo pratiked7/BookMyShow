@@ -11,11 +11,8 @@ import java.util.List;
 @Setter
 @Entity
 public class Theatre extends BaseModel{
-
-
     private String name;
     private String address;
-
     @OneToMany
     private List<Auditorium> auditoriums;
 

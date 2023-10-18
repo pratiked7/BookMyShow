@@ -13,7 +13,6 @@ import java.util.List;
 @Setter
 @Entity
 public class Show extends BaseModel{
-
     private LocalDateTime startTime;
     private LocalDateTime endTime;
     @ManyToOne

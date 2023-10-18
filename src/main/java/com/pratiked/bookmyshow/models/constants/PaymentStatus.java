@@ -1,5 +1,5 @@
 package com.pratiked.bookmyshow.models.constants;
 
-public class PaymentStatus {
-
+public enum PaymentStatus {
+    PAID, UNPAID
 }
